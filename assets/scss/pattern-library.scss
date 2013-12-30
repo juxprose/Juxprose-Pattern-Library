@@ -1,0 +1,233 @@
+/*==============================================================
+
+Pattern Library
+
+File: SCSS file
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Specific styles for the pattern library page
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Site title
+  -------------------------------------------------------- */  
+
+  .site-title {
+    color: $clr-primary;
+    font-size: $fnt-xlrg;
+    margin: $space 0 $space/4 0;
+    padding: 0;
+  }
+
+  .site-subtitle {
+    color: $clr-primary-tint70;
+    font-size: $fnt-med;
+    margin: 0;
+    padding: 0;    
+  }
+
+
+
+/* Base style settings
+  -------------------------------------------------------- */  
+
+  .base-fnt {
+    font: #{$base-fnt-size}/#{$base-line-height} $base-fnt;
+  } 
+
+  .base-fnt-size {
+    font-size: $fnt-reg;
+  }
+
+
+/* Patterns
+  -------------------------------------------------------- */
+
+.pattern {
+  clear: both;
+  overflow: hidden;
+}
+.pattern .display {
+    //width: 65%;
+    //float: left;
+}
+.pattern .source {
+  display: none;
+  width: 30%;
+  float: right;
+}
+.pattern .source textarea {
+  width: 90%;
+}
+
+
+/* Source
+  -------------------------------------------------------- */
+
+  .source {
+    border: 1px dashed $clr-keyline;
+    padding: $space/2;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      @include links-quiet;
+    }
+
+    textarea {
+      color: $clr-quiet;
+      font-size: $fnt-sml;      
+    }
+  }
+
+
+/* Titles
+  -------------------------------------------------------- */  
+
+  .title-divider {
+    border-bottom: 1px solid $clr-keyline;
+    color: #888;
+    font-size: 15px;
+    padding: 0 0 10px 0;
+    margin: $space*2 0;
+  }
+
+
+/* Colors
+  -------------------------------------------------------- */    
+
+  // Wraps
+  .colors {
+    margin: 0;
+    padding: 0;
+  }
+
+  .color-wrap {
+    border: 1px solid $clr-keyline;
+    float: left;
+    list-style-type: none;
+    margin: 0 $space $space 0;
+    padding: $space/2;
+    width: 100px;
+  }
+
+  // Color name
+  .color {
+    display: block;
+    margin: $space/4 0 0 0;
+    padding: 0;
+    font-size: $fnt-xsml;
+    line-height: 1;
+  }  
+  
+  // Swatches
+  .swatch {
+    display: block;
+    height: 4em;
+  }
+
+    // Base
+    .swatch--base {
+      @extend .swatch;
+      background: $base-clr;
+    }
+
+    .swatch--primary {
+      @extend .swatch;
+      background: $clr-primary;
+    }
+
+    .swatch--secondary {
+      @extend .swatch;
+      background: $clr-secondary;
+    }
+
+    .swatch--tertiary {
+      @extend .swatch;
+      background: $clr-tertiary;
+    }    
+ 
+  // Tint 70
+    .swatch--primary_tint70 {
+      @extend .swatch;
+      background: $clr-primary-tint70;
+    }
+
+    .swatch--secondary_tint70 {
+      @extend .swatch;
+      background: $clr-secondary-tint70;
+    }
+
+    .swatch--tertiary_tint70 {
+      @extend .swatch;
+      background: $clr-tertiary-tint70;
+    }    
+
+  // Tint 30
+    .swatch--primary_tint30 {
+      @extend .swatch;
+      background: $clr-primary-tint30;
+    }
+
+    .swatch--secondary_tint30 {
+      @extend .swatch;
+      background: $clr-secondary-tint30;
+    }
+
+    .swatch--tertiary_tint30 {
+      @extend .swatch;
+      background: $clr-tertiary-tint30;
+    }    
+
+    // Key colors
+    .swatch--utility {
+      @extend .swatch;
+      background: $clr-utility;
+    }    
+
+    .swatch--inverse {
+      @extend .swatch;
+      background: $clr-inverse;
+    }   
+
+    .swatch--highlight {
+      @extend .swatch;
+      background: $clr-highlight;
+    }   
+
+    .swatch--keyline {
+      @extend .swatch;
+      background: $clr-keyline;
+    }   
+
+    .swatch--bckgrd {
+      @extend .swatch;
+      background: $clr-bckgrd;
+    }   
+
+    .swatch--quiet {
+      @extend .swatch;
+      background: $clr-quiet;
+    }       
+
+    // Success & error
+    .swatch--success {
+      @extend .swatch;
+      background: $clr-success;
+    }   
+
+    .swatch--error {
+      @extend .swatch;
+      background: $clr-error;
+    }       

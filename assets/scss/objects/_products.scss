@@ -1,0 +1,63 @@
+/*==============================================================
+
+Products
+
+File: SCSS Partial (/scss/objects/_products.scss)
+Compiled to: css/style.css
+Created: 24/12/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Product styles
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Products
+  -------------------------------------------------------- */
+
+  .product-price {
+  	display: block;
+    font-size: $fnt-med;
+    margin-bottom: $space;
+  }
+
+  .product-title {
+    font-size: $fnt-xlrg;
+    margin: 0;
+  }
+
+
+
+/* Product groups
+  -------------------------------------------------------- */
+
+  .product-list {
+		.product {
+			float: left;
+			margin: 0 $space $space*2 0;
+			text-align: center;
+
+			// For a demo 3 column grid
+			&:nth-child(3n+5) {
+				//margin-right: 0;
+			}
+		}
+
+    .product-title {
+      @extend .product-title;
+      font-size: $fnt-reg;
+      margin: $space 0 0;
+      text-transform: uppercase;
+    }    
+
+    .product-price {
+      @extend .product-price;
+      font-size: $fnt-sml;
+      margin-bottom: 0;
+    }
+  }

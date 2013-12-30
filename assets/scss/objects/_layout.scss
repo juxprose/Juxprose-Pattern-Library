@@ -1,0 +1,72 @@
+/*==============================================================
+
+Layout
+
+File: SCSS Partial (/scss/objects/_layout.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Layout blocks
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Wrappers
+  -------------------------------------------------------- */
+
+  .wrapper {
+  	margin: auto;
+  	width: $max-width;
+  }
+
+	.wrapper-inline {
+		position: relative;
+	}
+
+/* Content blocks
+  -------------------------------------------------------- */
+
+	.block {
+			padding: $space;
+
+			.content {
+				margin: 0 auto;
+				max-width: $max-width;
+				position: relative;
+			}
+		}
+
+	// Site header
+	.block--site-header {
+		@extend .block;
+	}	
+
+	// Site content
+	.block--site-header {
+		@extend .block;
+	}	
+
+	// Site footer
+	.block--site-footer {
+		@extend .block;
+	}
+
+
+/* Columns
+  -------------------------------------------------------- */
+
+  .column {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }

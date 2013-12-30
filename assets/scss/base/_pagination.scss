@@ -1,0 +1,56 @@
+/*==============================================================
+
+Pagination
+
+File: SCSS Partial (/scss/partials/_pagination.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Pagination styles
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Pagination
+  -------------------------------------------------------- */
+
+.pagination {
+
+	li {
+		display: inline;
+		margin-left: 0;
+		text-indent: 0;
+	}
+
+	a {
+		@include inline-block;
+		@include border-radius($space/4);
+		@include single-transition(all, 0.2s, ease-in-out);
+		padding: $space/2 $space;
+		line-height: 1;
+		margin: $space/6;
+		background-clip: padding-box;
+
+		&:link, &:visited {
+			color: #fff;
+			background-color: $clr-utility;
+			text-decoration: none;
+		}
+
+		&:active, &.active {
+			color: #fff;
+			background-color: darken($clr-utility, 25%);
+		}
+
+		&:hover, &:focus {
+			color: #fff;
+			background-color: darken($clr-utility, 25%);
+		}
+	}	
+}

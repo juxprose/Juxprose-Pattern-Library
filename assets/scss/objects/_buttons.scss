@@ -1,0 +1,101 @@
+/*==============================================================
+
+Buttons
+
+File: SCSS Partial (/scss/objects/_buttons.scss)
+Compiled to: css/style.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Buttons
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Buttons
+  -------------------------------------------------------- */
+
+	.btn {
+		@include border-radius(5px);
+		@include links-primary;
+		color: rgb(255,255,255);
+		display: inline-block;
+		background: $clr-utility;
+		line-height: 1;
+		letter-spacing: 1px;
+		margin: $space/2 0;
+		padding: $space/2; 
+		border: 0;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		a {
+			@include links-primary;
+			text-decoration: none;
+		}
+		
+		&:hover, &:focus{
+			@include single-transition(all, 0.4s, ease-in-out);
+			background: lighten($clr-utility, 5%);
+			color: rgb(255,255,255);
+		}
+
+		&:visited {
+			color: rgb(255,255,255);
+		}
+
+		&.disabled {
+			background: $clr-primary;
+			color: rgb(255,255,255);
+		}
+	}
+
+	.btn--action {
+		@extend .btn;
+	}
+
+	.btn--inverse {
+		@extend .btn;
+		background: $clr-inverse;
+
+		&:hover, &:focus{
+			@include single-transition(all, 0.4s, ease-in-out);
+			background: lighten($clr-inverse, 25%);
+		}
+	}		
+
+	.btn--action_inverse {
+		@extend .btn--inverse;
+	}
+
+	.btn--large {
+		@extend .btn;
+		padding: $space;
+		text-transform: uppercase;
+		background: $clr-primary;
+		font-size: 1.4rem;
+		font-weight: normal;
+	}
+
+
+	// Inline form buttons
+	.wrapper-inline {
+		
+		button {
+			@include border-radius(0 5px 5px 0);
+			padding: 0.625em;
+			margin: 0;
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 1;
+			width: auto;
+		}
+	}
+

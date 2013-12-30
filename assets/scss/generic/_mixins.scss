@@ -1,0 +1,36 @@
+/*==============================================================
+
+Mixins
+
+File: SCSS Partial (/scss/partials/_mixins.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: All mixins
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Links
+  -------------------------------------------------------- */
+
+  // Primary Scheme
+ 	@mixin links-primary {
+ 		@include link-colors($clr-primary, lighten($clr-primary, 25%), lighten($clr-primary, 25%), $clr-primary, lighten($clr-primary, 25%))
+ 	}
+
+  // Secondary Scheme
+  @mixin links-secondary {
+ 		@include link-colors($clr-secondary, lighten($clr-secondary, 25%), lighten($clr-secondary, 25%), $clr-secondary, lighten($clr-secondary, 25%))
+ 	}
+
+  // Quiet Scheme
+ 	@mixin links-quiet {
+ 		@include link-colors($clr-quiet, lighten($clr-quiet, 5%), lighten($clr-quiet, 5%), $clr-quiet, lighten($clr-quiet, 5%))
+ 	} 	 	

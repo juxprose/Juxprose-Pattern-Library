@@ -1,0 +1,67 @@
+/*==============================================================
+
+Articles
+
+File: SCSS Partial (/scss/partials/_articles.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Article styles
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Articles
+  -------------------------------------------------------- */
+
+article > p,
+article section > p {
+	font-size: 1.125em;
+	line-height: 1.6667;
+	word-spacing: 0.1em;
+	margin: 1.1111em 0;
+/*	Does this improve the reading experience?
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	text-align: justify;
+*/
+}
+article footer+p:first-letter,
+article section>h2+p:first-letter,
+article section>p:first-child:first-letter {
+	display: inline-block;
+	float: left;
+	font-weight: $fnt-weight-bold;
+	font-size: 4em;
+	line-height: 0.75;
+	letter-spacing: -0.025em;
+	margin-right: 0.05em;
+	background-color: #693;
+	color: #fff;
+	border: 1px solid #693;
+
+}
+
+/* Time
+  -------------------------------------------------------- */
+
+time {
+	display: block;
+	text-align: right;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	line-height: 1.6667;
+	letter-spacing: 0.2em;
+	color: #888;
+}
+time:before {
+	content: '—';
+}

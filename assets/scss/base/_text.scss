@@ -1,0 +1,97 @@
+/*==============================================================
+
+Text
+
+File: SCSS Partial (/scss/base/_text.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Text styles
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+
+/* Paragraphs
+  -------------------------------------------------------- */
+
+  p {
+    margin-bottom: $space;
+  } 
+
+  // Special paragraphs
+  .note {
+    font-size: $fnt-sml;
+  }
+
+  .lead {
+    font-size: $fnt-med;
+    font-weight: $fnt-weight-h1;
+    line-height: 1.3;
+  }
+
+
+/* Blockquotes
+  -------------------------------------------------------- */
+
+  blockquote {
+    color: lighten($clr-primary, 35%);
+    font-style: italic;
+    position: relative;
+
+    // Font Awesome quote icon
+    .fa-quote-left {
+      position: absolute;
+      left: -25px;
+      top: 5px;
+    }
+  }
+
+
+/* Rule
+  -------------------------------------------------------- */
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: $clr-keyline;
+    margin: $space 0;
+  }
+
+
+/* Misc
+  -------------------------------------------------------- */
+  
+  address {
+    margin-bottom: $space;
+  }
+
+  abbr {
+    border-bottom: 1px dotted $clr-primary;
+    cursor: help;
+  }
+
+  acronym {
+    font-weight: $fnt-weight-bold;
+    font-style: italic;
+  }
+
+  cite {
+    font-weight: $fnt-weight-bold;
+  } 
+  
+  q {
+    font-style: italic;
+  }   
+
+  p, ul, ol, hr, table, form, fieldset {
+    margin-bottom: $space;
+  }
+
+

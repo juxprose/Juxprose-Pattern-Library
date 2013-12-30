@@ -1,0 +1,31 @@
+/*==============================================================
+
+Social
+
+File: SCSS Partial (/scss/objects/_social.scss)
+Compiled to: css/style.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Social elements like sharing buttons
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Sharing
+  -------------------------------------------------------- */
+
+	.product-sharing {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+		}
+	}

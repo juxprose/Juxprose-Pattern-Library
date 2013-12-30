@@ -1,0 +1,60 @@
+/*==============================================================
+
+Articles
+
+File: SCSS Partial (/scss/partials/_articles.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Article styles
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Boxes
+  -------------------------------------------------------- */
+
+	.box {
+		@include border-radius($space);
+		background: $clr-bckgrd;
+		padding: $space*2;
+		margin-bottom: $space;
+
+		p {
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	// Highlight boxes
+	.box--highlight {
+		@extend .box;
+	}
+
+	// Product boxes
+	.box--product {
+		@extend .box;
+	}	
+
+/* Images
+  -------------------------------------------------------- */
+
+	.box-image {
+		border: 1px solid $clr-keyline;
+		line-height: 1;
+		padding: $space/2;
+	}
+
+	.box-image--left {
+		@extend .box-image;
+		float: left;
+		margin: $space/2 $space $space 0; // Adding a small top margin to align top image to top paragraph - http://stackoverflow.com/questions/6409905/how-to-prevent-line-height-from-adding-a-margin-in-the-top
+	}
+	

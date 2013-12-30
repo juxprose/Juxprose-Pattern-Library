@@ -1,0 +1,48 @@
+/*==============================================================
+
+Lists
+
+File: SCSS Partial (/scss/base/_lists.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Base rules for lists
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Primary lists
+  -------------------------------------------------------- */
+
+	ol, ul {
+		margin: 0;
+		padding: 0;
+
+    // Nested lists
+    li & {
+      margin-bottom: 0;
+    }
+	}
+
+/* Definition lists
+  -------------------------------------------------------- */
+
+  dl {
+  	overflow: hidden;
+  	margin: 0 0 $space;
+  }
+
+  dt {
+  	font-weight: $fnt-weight-bold;
+  }
+
+  dd {
+  	margin: 0 0 $space;
+  }
+

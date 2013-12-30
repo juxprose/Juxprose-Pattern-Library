@@ -1,0 +1,160 @@
+/*==============================================================
+
+Navigation
+
+File: SCSS Partial (/scss/partials/_navigation.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Primary, secondary & tertiary navigations
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Menus
+  -------------------------------------------------------- */
+
+  nav {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+
+		a {
+			@include links-primary;
+			@include single-transition(all, 0.2s, ease-in-out);		
+			display: block;
+			text-decoration: none;
+		} 
+
+		> li {
+			&:last-child {
+				margin-right: 0;
+			}			
+		} 	
+  }
+
+	.menu-inline {
+
+		> li {
+			display: inline-block;
+			margin-right: $space*2;
+		}
+	}
+
+	.menu-stacked {
+
+		> li {
+			margin-bottom: $space;
+			position: relative;
+		}
+	}	
+
+	.menu-blocks {
+
+		> li {
+	
+			a {
+				display: inline-block;
+				background: $clr-bckgrd;
+				color: $clr-utility;
+				padding: $space/2 $space;
+
+				&:hover {
+					background-color: darken($clr-bckgrd, 25%);
+				}
+			}
+		}											
+	}	
+
+	.menu-breadcrumbs {
+
+		> li {
+			margin-right: $space/2;
+
+			&:last-child {
+				margin-right: 0;
+		
+				a {
+					&:after {
+						content: "";
+						padding-left: 0;
+					}
+				}
+			}
+		}
+
+		a {
+			&:after {
+				content: " > ";
+				padding-left: $space;
+			}
+		}
+	}
+
+	// Wordpress on-states
+	.current-menu-item, .current_page_item, .current-page-ancestor, .current-post-ancestor, .current-menu-parent .current-post-parent {
+		background-color: lighten($base-clr, 20%);
+	}	
+
+  /* Responsive site menu
+  -------------------------------------------------------- */
+
+		// Toggle - all
+		a.menu-link {
+			@include inline-block;
+			background: $base-clr;
+			color: rgb(255,255,255);
+			clear: both;
+			padding: $space;
+			text-decoration: none;
+		}
+
+		// Main nav - all
+    nav[role=navigation] {
+      clear: both;
+      -webkit-transition: all 0.3s ease-out;  
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+
+    nav[role=navigation].active {
+      max-height: 20em;
+    }
+
+    nav[role=navigation] li {
+      @media #{$bp-sml} {
+				width: 100%;
+				float: none;
+      }
+
+      a {
+	      @media #{$bp-sml} {
+					display: block;
+	      }      	
+      }
+    }
+
+		// Medium > screens
+    @media #{$bp-sml-up} {
+       
+	    a.menu-link {
+	      display: none;
+	    }
+
+	    .js nav[role=navigation] {
+	      max-height: none;
+	    }
+    }	
