@@ -520,7 +520,7 @@ Author URI: http://juxprose.com
 /* line 23, ../scss/base/_main.scss */
 html {
   background: white;
-  color: #555555;
+  color: #222222;
   font: 16px/1.6 "proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -667,7 +667,7 @@ Author URI: http://juxprose.com
   -------------------------------------------------------- */
 /* line 23, ../scss/base/_links.scss */
 a {
-  color: #b5121b;
+  color: #001f8f;
   -webkit-transition: color 0.2s ease-in-out;
   -webkit-transition-delay: 0s;
   -moz-transition: color 0.2s ease-in-out 0s;
@@ -676,16 +676,16 @@ a {
   white-space: pre-wrap; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:visited {
-    color: #b5121b; }
+    color: #001f8f; }
   /* line 21, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:focus {
-    color: #ee5860; }
+    color: #1043ff; }
   /* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:hover {
-    color: #ee5860; }
+    color: #1043ff; }
   /* line 27, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:active {
-    color: #ee5860; }
+    color: #1043ff; }
 
 /* Header links
   -------------------------------------------------------- */
@@ -749,11 +749,11 @@ button, input, select, textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #666666;
+  color: #001f8f;
   font-family: inherit;
   font-size: 100%;
   line-height: normal;
-  margin: 0; }
+  margin: 0 0 1em 0; }
 
 /* line 57, ../scss/base/_forms.scss */
 input, textarea {
@@ -843,7 +843,7 @@ input[type="radio"] {
   /* line 145, ../scss/base/_forms.scss */
   .search-form button:before {
     content: "\f002";
-    color: #666666;
+    color: #001f8f;
     font-family: 'FontAwesome';
     font-size: 18px; }
 
@@ -971,7 +971,7 @@ p {
   -------------------------------------------------------- */
 /* line 43, ../scss/base/_text.scss */
 blockquote {
-  color: #bfbfbf;
+  color: #426bff;
   font-style: italic;
   position: relative; }
   /* line 49, ../scss/base/_text.scss */
@@ -997,7 +997,7 @@ address {
 
 /* line 75, ../scss/base/_text.scss */
 abbr {
-  border-bottom: 1px dotted #666666;
+  border-bottom: 1px dotted #001f8f;
   cursor: help; }
 
 /* line 80, ../scss/base/_text.scss */
@@ -1079,7 +1079,7 @@ h4, h5, h6 {
 .giga {
   font-size: 3.5em;
   font-weight: normal;
-  color: #666666;
+  color: #001f8f;
   letter-spacing: 1px; }
 
 @media print {
@@ -1276,7 +1276,7 @@ nav {
   padding: 0; }
   /* line 28, ../scss/objects/_navigation.scss */
   nav a {
-    color: #666666;
+    color: #001f8f;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -1285,16 +1285,16 @@ nav {
     text-decoration: none; }
     /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     nav a:visited {
-      color: #666666; }
+      color: #001f8f; }
     /* line 21, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     nav a:focus {
-      color: #a6a6a6; }
+      color: #1043ff; }
     /* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     nav a:hover {
-      color: #a6a6a6; }
+      color: #1043ff; }
     /* line 27, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     nav a:active {
-      color: #a6a6a6; }
+      color: #1043ff; }
   /* line 36, ../scss/objects/_navigation.scss */
   nav > li:last-child {
     margin-right: 0; }
@@ -1336,7 +1336,7 @@ nav {
 
 /* line 101, ../scss/objects/_navigation.scss */
 .current-menu-item, .current_page_item, .current-page-ancestor, .current-post-ancestor, .current-menu-parent .current-post-parent {
-  background-color: #888888; }
+  background-color: #555555; }
 
 /* Responsive site menu
 -------------------------------------------------------- */
@@ -1348,7 +1348,7 @@ a.menu-link {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background: #555555;
+  background: #222222;
   color: white;
   clear: both;
   padding: 1em;
@@ -1416,7 +1416,7 @@ Author URI: http://juxprose.com
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  color: #666666;
+  color: #001f8f;
   color: white;
   display: inline-block;
   background: #888888;
@@ -1430,32 +1430,32 @@ Author URI: http://juxprose.com
   text-transform: uppercase; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   .btn:visited, .btn--action:visited, .btn--inverse:visited, .btn--action_inverse:visited, .btn--large:visited {
-    color: #666666; }
+    color: #001f8f; }
   /* line 21, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   .btn:focus, .btn--action:focus, .btn--inverse:focus, .btn--action_inverse:focus, .btn--large:focus {
-    color: #a6a6a6; }
+    color: #1043ff; }
   /* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   .btn:hover, .btn--action:hover, .btn--inverse:hover, .btn--action_inverse:hover, .btn--large:hover {
-    color: #a6a6a6; }
+    color: #1043ff; }
   /* line 27, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   .btn:active, .btn--action:active, .btn--inverse:active, .btn--action_inverse:active, .btn--large:active {
-    color: #a6a6a6; }
+    color: #1043ff; }
   /* line 38, ../scss/objects/_buttons.scss */
   .btn a, .btn--action a, .btn--inverse a, .btn--action_inverse a, .btn--large a {
-    color: #666666;
+    color: #001f8f;
     text-decoration: none; }
     /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     .btn a:visited, .btn--action a:visited, .btn--inverse a:visited, .btn--action_inverse a:visited, .btn--large a:visited {
-      color: #666666; }
+      color: #001f8f; }
     /* line 21, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     .btn a:focus, .btn--action a:focus, .btn--inverse a:focus, .btn--action_inverse a:focus, .btn--large a:focus {
-      color: #a6a6a6; }
+      color: #1043ff; }
     /* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     .btn a:hover, .btn--action a:hover, .btn--inverse a:hover, .btn--action_inverse a:hover, .btn--large a:hover {
-      color: #a6a6a6; }
+      color: #1043ff; }
     /* line 27, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     .btn a:active, .btn--action a:active, .btn--inverse a:active, .btn--action_inverse a:active, .btn--large a:active {
-      color: #a6a6a6; }
+      color: #1043ff; }
   /* line 43, ../scss/objects/_buttons.scss */
   .btn:hover, .btn--action:hover, .btn--inverse:hover, .btn--action_inverse:hover, .btn--large:hover, .btn:focus, .btn--action:focus, .btn--inverse:focus, .btn--action_inverse:focus, .btn--large:focus {
     -webkit-transition: all 0.4s ease-in-out;
@@ -1469,25 +1469,25 @@ Author URI: http://juxprose.com
     color: white; }
   /* line 53, ../scss/objects/_buttons.scss */
   .btn.disabled, .disabled.btn--action, .disabled.btn--inverse, .disabled.btn--action_inverse, .disabled.btn--large {
-    background: #666666;
+    background: #001f8f;
     color: white; }
 
 /* line 63, ../scss/objects/_buttons.scss */
 .btn--inverse, .btn--action_inverse {
-  background: #999999; }
+  background: #ffe070; }
   /* line 67, ../scss/objects/_buttons.scss */
   .btn--inverse:hover, .btn--action_inverse:hover, .btn--inverse:focus, .btn--action_inverse:focus {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background: #d9d9d9; }
+    background: #fffcef; }
 
 /* line 77, ../scss/objects/_buttons.scss */
 .btn--large {
   padding: 1em;
   text-transform: uppercase;
-  background: #666666;
+  background: #001f8f;
   font-size: 1.4rem;
   font-weight: normal; }
 
@@ -1528,7 +1528,7 @@ Author URI: http://juxprose.com
 /* line 23, ../scss/objects/_layout.scss */
 .wrapper {
   margin: auto;
-  width: 1024px; }
+  max-width: 1024px; }
 
 /* line 28, ../scss/objects/_layout.scss */
 .wrapper-inline {
@@ -1536,23 +1536,20 @@ Author URI: http://juxprose.com
 
 /* Content blocks
   -------------------------------------------------------- */
-/* line 35, ../scss/objects/_layout.scss */
-.block, .block--site-header, .block--site-footer {
-  padding: 1em; }
-  /* line 38, ../scss/objects/_layout.scss */
-  .block .content, .block--site-header .content, .block--site-footer .content {
-    margin: 0 auto;
-    max-width: 1024px;
-    position: relative; }
+/* line 37, ../scss/objects/_layout.scss */
+.block .content, .block--site-header .content, .block--site-content .content, .block--site-footer .content {
+  margin: 0 auto;
+  max-width: 1024px;
+  position: relative; }
 
 /* Columns
   -------------------------------------------------------- */
-/* line 64, ../scss/objects/_layout.scss */
+/* line 63, ../scss/objects/_layout.scss */
 .column {
   width: 45%;
   float: left;
   margin-right: 5%; }
-  /* line 69, ../scss/objects/_layout.scss */
+  /* line 68, ../scss/objects/_layout.scss */
   .column:last-child {
     margin-right: 0; }
 
@@ -1742,6 +1739,53 @@ Author URI: http://juxprose.com
   .product-sharing li {
     display: inline-block; }
 
+/*==============================================================
+
+Flexslider
+
+File: SCSS Partial (/scss/objects/_woo-flexslider.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Primary, secondary & tertiary navigations
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/* Homepage slider
+  -------------------------------------------------------- */
+/* line 23, ../scss/objects/_woo-flexslider.scss */
+.flexslider {
+  margin: 0 0 1em 0;
+  text-align: center;
+  border: 1px solid #888888;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+/* line 31, ../scss/objects/_woo-flexslider.scss */
+.flex-direction-nav a {
+  height: 60px; }
+
+/* line 35, ../scss/objects/_woo-flexslider.scss */
+.slider-title {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.375em;
+  line-height: 1.4;
+  padding: 0.5em; }
+
 /*  Pattern Library
   -------------------------------------------------------- */
 /*==============================================================
@@ -1765,56 +1809,54 @@ Author URI: http://juxprose.com
   -------------------------------------------------------- */
 /* line 23, ../scss/pattern-library.scss */
 .site-title {
-  color: #666666;
   font-size: 2.25em;
   margin: 1em 0 0.25em 0;
   padding: 0; }
 
-/* line 30, ../scss/pattern-library.scss */
+/* line 29, ../scss/pattern-library.scss */
 .site-subtitle {
-  color: rgba(102, 102, 102, 0.7);
   font-size: 1.375em;
   margin: 0;
   padding: 0; }
 
 /* Base style settings
   -------------------------------------------------------- */
-/* line 42, ../scss/pattern-library.scss */
+/* line 40, ../scss/pattern-library.scss */
 .base-fnt {
   font: 16px/1.6 "proxima-nova", sans-serif; }
 
-/* line 46, ../scss/pattern-library.scss */
+/* line 44, ../scss/pattern-library.scss */
 .base-fnt-size {
   font-size: 1em; }
 
 /* Patterns
   -------------------------------------------------------- */
-/* line 54, ../scss/pattern-library.scss */
+/* line 52, ../scss/pattern-library.scss */
 .pattern {
   clear: both;
   overflow: hidden; }
 
-/* line 62, ../scss/pattern-library.scss */
+/* line 60, ../scss/pattern-library.scss */
 .pattern .source {
   display: none;
   width: 30%;
   float: right; }
 
-/* line 67, ../scss/pattern-library.scss */
+/* line 65, ../scss/pattern-library.scss */
 .pattern .source textarea {
   width: 90%; }
 
 /* Source
   -------------------------------------------------------- */
-/* line 75, ../scss/pattern-library.scss */
+/* line 73, ../scss/pattern-library.scss */
 .source {
   border: 1px dashed #888888;
   padding: 0.5em; }
-  /* line 79, ../scss/pattern-library.scss */
+  /* line 77, ../scss/pattern-library.scss */
   .source p {
     margin: 0;
     padding: 0; }
-  /* line 84, ../scss/pattern-library.scss */
+  /* line 82, ../scss/pattern-library.scss */
   .source a {
     color: #888888; }
     /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
@@ -1829,14 +1871,14 @@ Author URI: http://juxprose.com
     /* line 27, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     .source a:active {
       color: #959595; }
-  /* line 88, ../scss/pattern-library.scss */
+  /* line 86, ../scss/pattern-library.scss */
   .source textarea {
     color: #888888;
     font-size: 0.875em; }
 
 /* Titles
   -------------------------------------------------------- */
-/* line 98, ../scss/pattern-library.scss */
+/* line 96, ../scss/pattern-library.scss */
 .title-divider {
   border-bottom: 1px solid #888888;
   color: #888;
@@ -1846,13 +1888,14 @@ Author URI: http://juxprose.com
 
 /* Colors
   -------------------------------------------------------- */
-/* line 111, ../scss/pattern-library.scss */
+/* line 109, ../scss/pattern-library.scss */
 .colors {
   margin: 0;
   padding: 0; }
 
-/* line 116, ../scss/pattern-library.scss */
+/* line 114, ../scss/pattern-library.scss */
 .color-wrap {
+  background: white;
   border: 1px solid #888888;
   float: left;
   list-style-type: none;
@@ -1860,7 +1903,7 @@ Author URI: http://juxprose.com
   padding: 0.5em;
   width: 100px; }
 
-/* line 126, ../scss/pattern-library.scss */
+/* line 125, ../scss/pattern-library.scss */
 .color {
   display: block;
   margin: 0.25em 0 0 0;
@@ -1868,79 +1911,79 @@ Author URI: http://juxprose.com
   font-size: 0.75em;
   line-height: 1; }
 
-/* line 135, ../scss/pattern-library.scss */
+/* line 134, ../scss/pattern-library.scss */
 .swatch, .swatch--base, .swatch--primary, .swatch--secondary, .swatch--tertiary, .swatch--primary_tint70, .swatch--secondary_tint70, .swatch--tertiary_tint70, .swatch--primary_tint30, .swatch--secondary_tint30, .swatch--tertiary_tint30, .swatch--utility, .swatch--inverse, .swatch--highlight, .swatch--keyline, .swatch--bckgrd, .swatch--quiet, .swatch--success, .swatch--error {
   display: block;
   height: 4em; }
 
-/* line 141, ../scss/pattern-library.scss */
+/* line 140, ../scss/pattern-library.scss */
 .swatch--base {
-  background: #555555; }
+  background: #222222; }
 
-/* line 146, ../scss/pattern-library.scss */
+/* line 145, ../scss/pattern-library.scss */
 .swatch--primary {
-  background: #666666; }
+  background: #001f8f; }
 
-/* line 151, ../scss/pattern-library.scss */
+/* line 150, ../scss/pattern-library.scss */
 .swatch--secondary {
-  background: #b5121b; }
+  background: #33d9ff; }
 
-/* line 156, ../scss/pattern-library.scss */
+/* line 155, ../scss/pattern-library.scss */
 .swatch--tertiary {
-  background: #777777; }
+  background: #ff0069; }
 
-/* line 162, ../scss/pattern-library.scss */
+/* line 161, ../scss/pattern-library.scss */
 .swatch--primary_tint70 {
-  background: rgba(102, 102, 102, 0.7); }
+  background: rgba(0, 31, 143, 0.7); }
 
-/* line 167, ../scss/pattern-library.scss */
+/* line 166, ../scss/pattern-library.scss */
 .swatch--secondary_tint70 {
-  background: rgba(181, 18, 27, 0.7); }
+  background: rgba(51, 217, 255, 0.7); }
 
-/* line 172, ../scss/pattern-library.scss */
+/* line 171, ../scss/pattern-library.scss */
 .swatch--tertiary_tint70 {
-  background: rgba(119, 119, 119, 0.7); }
+  background: rgba(255, 0, 105, 0.7); }
 
-/* line 178, ../scss/pattern-library.scss */
+/* line 177, ../scss/pattern-library.scss */
 .swatch--primary_tint30 {
   background: rgba(102, 102, 102, 0.3); }
 
-/* line 183, ../scss/pattern-library.scss */
+/* line 182, ../scss/pattern-library.scss */
 .swatch--secondary_tint30 {
-  background: rgba(181, 18, 27, 0.3); }
+  background: rgba(51, 217, 255, 0.3); }
 
-/* line 188, ../scss/pattern-library.scss */
+/* line 187, ../scss/pattern-library.scss */
 .swatch--tertiary_tint30 {
-  background: rgba(119, 119, 119, 0.3); }
+  background: rgba(255, 0, 105, 0.3); }
 
-/* line 194, ../scss/pattern-library.scss */
+/* line 193, ../scss/pattern-library.scss */
 .swatch--utility {
   background: #888888; }
 
-/* line 199, ../scss/pattern-library.scss */
+/* line 198, ../scss/pattern-library.scss */
 .swatch--inverse {
-  background: #999999; }
+  background: #ffe070; }
 
-/* line 204, ../scss/pattern-library.scss */
+/* line 203, ../scss/pattern-library.scss */
 .swatch--highlight {
   background: #555555; }
 
-/* line 209, ../scss/pattern-library.scss */
+/* line 208, ../scss/pattern-library.scss */
 .swatch--keyline {
   background: #888888; }
 
-/* line 214, ../scss/pattern-library.scss */
+/* line 213, ../scss/pattern-library.scss */
 .swatch--bckgrd {
   background: #c8c8c8; }
 
-/* line 219, ../scss/pattern-library.scss */
+/* line 218, ../scss/pattern-library.scss */
 .swatch--quiet {
   background: #888888; }
 
-/* line 225, ../scss/pattern-library.scss */
+/* line 224, ../scss/pattern-library.scss */
 .swatch--success {
   background: forestgreen; }
 
-/* line 230, ../scss/pattern-library.scss */
+/* line 229, ../scss/pattern-library.scss */
 .swatch--error {
   background: firebrick; }

@@ -20,7 +20,7 @@ Author URI: http://juxprose.com
 /* Base
   -------------------------------------------------------- */
 
-  $base-clr: rgb(85,85,85);
+  $base-clr: rgb(34,34,34);
   $base-fnt: "proxima-nova",sans-serif;
   $base-fnt-size: 16px;
   $base-line-height: 1.6;   
@@ -31,21 +31,22 @@ Author URI: http://juxprose.com
   -------------------------------------------------------- */ 
 
   // Main
-  $clr-primary: rgb(102,102,102);
-  $clr-secondary: rgb(181,18,27);
-  $clr-tertiary: rgb(119,119,119);
+  $clr-primary: rgb(0,31,143);
+  $clr-secondary: rgb(51,217,255);
+  $clr-tertiary: rgb(255,0,105);
 
   // Tints - 70%
-  $clr-primary-tint70: rgba(102,102,102,0.7);
-  $clr-secondary-tint70: rgba(181,18,27,0.7);
-  $clr-tertiary-tint70: rgba(119,119,119,0.7);
+  $clr-primary-tint70: rgba(0,31,143,0.7);
+  $clr-secondary-tint70: rgba(51,217,255,0.7);
+  $clr-tertiary-tint70: rgba(255,0,105,0.7);
 
   // Tints - 30%
   $clr-primary-tint30: rgba(102,102,102,0.3);
-  $clr-secondary-tint30: rgba(181,18,27,0.3);
-  $clr-tertiary-tint30: rgba(119,119,119,0.3);    
+  $clr-secondary-tint30: rgba(51,217,255,0.3);
+  $clr-tertiary-tint30: rgba(255,0,105,0.3);    
   
   // Buttons, highlights, backgrounds & keylines
+  $clr-site-bckgrd: rgb(255,255,255);
   $clr-utility: rgb(136,136,136);
   $clr-inverse: invert($clr-primary);
   $clr-highlight: rgb(85,85,85);

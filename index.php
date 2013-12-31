@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Juxprose Pattern Library</title>
-    <link rel="stylesheet" href="assets/css/global.css">
-
+   
     <!-- Font Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -21,6 +20,12 @@
 
     <!-- jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css" type="text/css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/global.css">
   </head>
   <body>
 
@@ -54,6 +59,15 @@
 
     <!-- Scripts -->
     <script src="assets/js/global-ck.js"></script>
+    <script src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    jQuery(window).load(function() {         
+      jQuery('#basic-slider').flexslider({
+        controlNav: false
+      });
+    });
+    </script>   
+
 
   </body>
 </html>

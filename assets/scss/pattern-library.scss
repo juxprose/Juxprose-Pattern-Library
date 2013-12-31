@@ -21,14 +21,12 @@ Author URI: http://juxprose.com
   -------------------------------------------------------- */  
 
   .site-title {
-    color: $clr-primary;
     font-size: $fnt-xlrg;
     margin: $space 0 $space/4 0;
     padding: 0;
   }
 
   .site-subtitle {
-    color: $clr-primary-tint70;
     font-size: $fnt-med;
     margin: 0;
     padding: 0;    
@@ -114,6 +112,7 @@ Author URI: http://juxprose.com
   }
 
   .color-wrap {
+    background: white;
     border: 1px solid $clr-keyline;
     float: left;
     list-style-type: none;

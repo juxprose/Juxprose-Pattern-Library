@@ -1,0 +1,43 @@
+/*==============================================================
+
+Flexslider
+
+File: SCSS Partial (/scss/objects/_woo-flexslider.scss)
+Compiled to: css/global.css
+Created: 16/11/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Primary, secondary & tertiary navigations
+Author: David Flindall
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Homepage slider
+  -------------------------------------------------------- */
+
+.flexslider { 
+  margin: 0 0 $space 0;
+  text-align: center;
+  border: 1px solid $clr-keyline; 
+  -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; 
+  -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; box-shadow: none; 
+}
+
+.flex-direction-nav a {
+  height: 60px;
+}
+
+.slider-title {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-style: normal;
+  font-weight: 100;  
+  font-size: $fnt-med;
+  line-height: 1.4;
+  padding: $space/2;
+}

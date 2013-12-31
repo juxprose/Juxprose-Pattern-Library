@@ -22,7 +22,7 @@ Author URI: http://juxprose.com
 
   .wrapper {
   	margin: auto;
-  	width: $max-width;
+  	max-width: $max-width;
   }
 
 	.wrapper-inline {
@@ -33,14 +33,13 @@ Author URI: http://juxprose.com
   -------------------------------------------------------- */
 
 	.block {
-			padding: $space;
 
-			.content {
-				margin: 0 auto;
-				max-width: $max-width;
-				position: relative;
-			}
+		.content {
+			margin: 0 auto;
+			max-width: $max-width;
+			position: relative;
 		}
+	}
 
 	// Site header
 	.block--site-header {
@@ -48,7 +47,7 @@ Author URI: http://juxprose.com
 	}	
 
 	// Site content
-	.block--site-header {
+	.block--site-content {
 		@extend .block;
 	}	
 
